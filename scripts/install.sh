@@ -115,13 +115,13 @@ echo "Copied .gtkrc-2.0 to home directory."
 #yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm swaync sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle thunar hyprlock blueman hyprshot python-pillow flat-remix-gtk flat-remix nwg-look cmatrix cbonsai tty-clock btop
+yay -S --noconfirm swaync sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle thunar hyprlock blueman hyprshot python-pillow flat-remix-gtk flat-remix nwg-look cmatrix cbonsai tty-clock btop nm-connection-editor
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
 yay -S --noconfirm otf-aurulent-nerd
 
 # For thunar plugins
-yay -S --noconfirm thunar tumbler ffmpegthumbnailer libheif
+yay -S --noconfirm tumbler ffmpegthumbnailer libheif
 
 # Done
 echo "Installation complete! Please restart your terminal for .bashrc changes to take effect."
