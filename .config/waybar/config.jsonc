@@ -289,7 +289,7 @@
     "format-icons": ["", "", "", "", "", "", "", "", ""]
 },
 "idle_inhibitor": {
-    "format": "{icon}",
+    "format": "{icon} ",
     "interval": 1,
     "exec": "bash -c 'pgrep -x hypridle && echo  || echo '",
     "on-click": "bash -c 'pgrep -x hypridle && pkill hypridle || hypridle &'",
@@ -360,7 +360,7 @@
   },
 
 
-// modules for padding //
+// modules 4 padding //
 
 "custom/l_end": {
     "format": " ",
