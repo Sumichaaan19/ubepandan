@@ -47,16 +47,16 @@ EOF
     echo -e "\033[0m"
 }
 # Define your GitHub repository URL
-REPO_URL="https://github.com/Sumichaaan19/misakidot.git"
-DEST_DIR="$HOME/misakidot"
+REPO_URL="https://github.com/Sumichaaan19/ubepandan.git"
+DEST_DIR="$HOME/ubepandan"
 
 # Clone the repository if it doesn't exist
 welcome_ascii
-echo "Cloning misakidot repository..."
+echo "Cloning ubepandan repository..."
 if [ ! -d "$DEST_DIR" ]; then
     git clone "$REPO_URL" "$DEST_DIR"
 else
-    echo "misakidot repository already exists, pulling latest changes..."
+    echo "ubepandan repository already exists, pulling latest changes..."
     cd "$DEST_DIR"
     git pull
 fi
