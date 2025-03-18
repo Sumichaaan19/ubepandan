@@ -343,7 +343,7 @@ label:focus {
 
 
 #idle_inhibitor{ 
-    padding-right: 3px;
+   
     color: @main-fg;
     background: none;
 
