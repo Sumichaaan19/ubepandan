@@ -115,7 +115,7 @@ echo "Copied .gtkrc-2.0 to home directory."
 #yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm swaync sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle thunar hyprlock blueman hyprshot python-pillow flat-remix-gtk flat-remix nwg-look cmatrix cbonsai tty-clock btop nm-connection-editor
+yay -S --noconfirm swaync sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle thunar hyprlock blueman hyprshot python-pillow flat-remix-gtk flat-remix nwg-look cmatrix cbonsai tty-clock btop htop networkmanager
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
 yay -S --noconfirm otf-aurulent-nerd
