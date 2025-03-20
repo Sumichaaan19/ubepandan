@@ -69,6 +69,15 @@ Based on eva 01 colors from Evangelion anime.
 <p align="center">
   <img src="./screenshots/7.png" alt="3" width="75%" />
 </p>
+<p align="center">
+  <img src="./screenshots/8.png" alt="3" width="75%" />
+</p>
+<p align="center">
+  <img src="./screenshots/9.png" alt="3" width="75%" />
+</p>
+<p align="center">
+  <img src="./screenshots/10.png" alt="3" width="75%" />
+</p>
 
 ## ⚡ Installation
 
