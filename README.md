@@ -65,7 +65,6 @@ Based on EVA01 colors from the Evangelion anime.
 | `SUPER + P` | Toggle Pseudo-Tiling |
 | `SUPER + J` | Toggle Split Mode |
 | `SUPER + O` | Open VS Code |
-| `SUPER + D` | Open Dolphin File Manager |
 | `SUPER + SHIFT + W` | Open Wallpaper Picker |
 | `ALT + Tab` | Cycle Through Windows |
 | `SUPER + F` | Toggle Fullscreen |
