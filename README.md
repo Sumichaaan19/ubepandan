@@ -10,7 +10,7 @@ Based on eva 01 colors from Evangelion anime.
 | Bar 📊            | [Waybar](https://github.com/Alexays/Waybar)      |
 | Launcher 🚀       | [Rofi](https://github.com/davatorium/rofi)          |
 | Terminal 🖥️       | [Kitty](https://github.com/kovidgoyal/kitty)        |
-| File Manager 📁   | [Thunar](https://https://github.com/dfmgr/Thunar) / [Ranger](https://github.com/ranger/ranger)      |
+| File Manager 📁   | [Thunar](https://github.com/dfmgr/Thunar) / [Ranger](https://github.com/ranger/ranger)      |
 | System Info 🖼️    | [Neofetch](https://github.com/dylanaraps/neofetch)|
 | Wallpaper 🎨      | [swww](https://github.com/LGFae/swww) |
 | Screenshot 📸     | [Hyprshot](https://github.com/hyprwm/hyprshot) |
