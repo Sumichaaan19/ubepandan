@@ -1,11 +1,13 @@
 # UBE-PANDAN
 
-Based on EVA01 colors from the Evangelion anime. 
-      <img src="./images/logo.png" width="300px"/>
+Based on EVA01 colors from the Evangelion anime.
 
 ## 🛠 Installed Programs
 
-        
+<table>
+  <tr>
+    <td>
+      
 | Component         | Program    |
 |-------------------|------------|
 | Window Manager 🪟| [Hyprland](https://github.com/hyprwm/Hyprland)  |
@@ -17,9 +19,13 @@ Based on EVA01 colors from the Evangelion anime.
 | Wallpaper 🎨      | [swww](https://github.com/LGFae/swww) |
 | Screenshot 📸     | [Hyprshot](https://github.com/hyprwm/hyprshot) |
 | Visualizer 🎵     | [Cava](https://github.com/karlstav/cava) |
-        
-
-
+      
+    </td>
+    <td>
+      <img src="./images/logo.png" width="300px"/>
+    </td>
+  </tr>
+</table>
 
 ## 🎛 Keybindings
 
