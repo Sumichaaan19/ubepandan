@@ -59,9 +59,11 @@
   
   ],
   "widget-config": {
-    "backlight": {
-      "label": "󰃠 ",
-      "device": "panel"
+    "brightness": {
+      "text": "Brightness",
+      "min": 0,
+      "max": 100,
+      "command": "brightnessctl set %"
     },
     "volume": {
       "label": " Volume ",

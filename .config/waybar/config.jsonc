@@ -207,7 +207,7 @@
 
 "network": {
     "tooltip": true,
-    "on-click-right": "nmtui",
+    "on-click-right": "kitty -- nmtui",
     //"on-click": "nm-connection-editor",
     "format-wifi": "   ",
     "rotate": 0,

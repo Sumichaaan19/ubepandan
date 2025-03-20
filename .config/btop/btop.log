@@ -59,3 +59,9 @@
 2025/02/14 (14:42:28) | ===> btop++ v.1.4.0
 2025/02/14 (14:42:28) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
 2025/02/14 (14:42:28) | ERROR: Couldn't determine terminal size of "/dev/tty"!
+
+2025/03/18 (15:57:23) | ===> btop++ v.1.4.0
+2025/03/18 (15:57:23) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2025/03/18 (20:12:43) | ===> btop++ v.1.4.0
+2025/03/18 (20:12:43) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
