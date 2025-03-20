@@ -1,6 +1,6 @@
 # UBE-PANDAN
 
-Based on eva 01 colors from Evangelion anime.
+Based on EVA01 colors from Evangelion anime.
 
 ## 🛠 Installed Programs
 
@@ -89,12 +89,17 @@ Clone the repository and run the installation script:
  ./install.sh
 ```
 
--You can always just copy the config files if they aren't working well.
-
 ## 🎨 Theme
 
 This rice is based on the **EVA01** and **JOKER** color theme, Waybar, and terminal colors.
 
+
+## Notes
+-You can always just manually install dependencies and copy the config files if they aren't 
+ working well. The install script will only work perfectly for those who have freshly installed 
+ Arch-Linux. 
+-If you are using low-end laptops or you just want to reduce power consumption. You can just
+ delete the cava code in waybar.conf. That thing is a battery hog.
 
 
 
