@@ -4,28 +4,51 @@ Based on EVA01 colors from the Evangelion anime.
 
 ## 🛠 Installed Programs
 
-<table>
-  <tr>
-    <td>
-      
-| Component         | Program    |
-|-------------------|------------|
-| Window Manager 🪟| [Hyprland](https://github.com/hyprwm/Hyprland)  |
-| Bar 📊            | [Waybar](https://github.com/Alexays/Waybar)      |
-| Launcher 🚀       | [Rofi](https://github.com/davatorium/rofi)          |
-| Terminal 🖥️       | [Kitty](https://github.com/kovidgoyal/kitty)        |
-| File Manager 📁   | [Thunar](https://github.com/dfmgr/Thunar) / [Ranger](https://github.com/ranger/ranger)      |
-| System Info 🖼️    | [Neofetch](https://github.com/dylanaraps/neofetch) |
-| Wallpaper 🎨      | [swww](https://github.com/LGFae/swww) |
-| Screenshot 📸     | [Hyprshot](https://github.com/hyprwm/hyprshot) |
-| Visualizer 🎵     | [Cava](https://github.com/karlstav/cava) |
-      
-    </td>
-    <td>
-      <img src="./images/logo.png" width="300px"/>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <table>
+    <tr>
+      <th>Component</th>
+      <th>Program</th>
+    </tr>
+    <tr>
+      <td>Window Manager 🪟</td>
+      <td><a href="https://github.com/hyprwm/Hyprland">Hyprland</a></td>
+    </tr>
+    <tr>
+      <td>Bar 📊</td>
+      <td><a href="https://github.com/Alexays/Waybar">Waybar</a></td>
+    </tr>
+    <tr>
+      <td>Launcher 🚀</td>
+      <td><a href="https://github.com/davatorium/rofi">Rofi</a></td>
+    </tr>
+    <tr>
+      <td>Terminal 🖥️</td>
+      <td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
+    </tr>
+    <tr>
+      <td>File Manager 📁</td>
+      <td><a href="https://github.com/dfmgr/Thunar">Thunar</a> / <a href="https://github.com/ranger/ranger">Ranger</a></td>
+    </tr>
+    <tr>
+      <td>System Info 🖼️</td>
+      <td><a href="https://github.com/dylanaraps/neofetch">Neofetch</a></td>
+    </tr>
+    <tr>
+      <td>Wallpaper 🎨</td>
+      <td><a href="https://github.com/LGFae/swww">swww</a></td>
+    </tr>
+    <tr>
+      <td>Screenshot 📸</td>
+      <td><a href="https://github.com/hyprwm/hyprshot">Hyprshot</a></td>
+    </tr>
+    <tr>
+      <td>Visualizer 🎵</td>
+      <td><a href="https://github.com/karlstav/cava">Cava</a></td>
+    </tr>
+  </table>
+  <img src="./images/logo.png" width="300px" style="margin-left: 20px;"/>
+</div>
 
 ## 🎛 Keybindings
 
@@ -92,4 +115,3 @@ This rice is based on the **EVA01** and **JOKER** color themes, including Waybar
 ---
 
 This rice is a work in progress, and I'll continue updating it with more tweaks and improvements!
-
