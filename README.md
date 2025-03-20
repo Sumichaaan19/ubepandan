@@ -1,5 +1,18 @@
 # UBE-PANDAN
 
+<table align="center">
+  <tr>
+    <td>
+      <p align="center" style="color: white; font-size: 18px;">
+        Based on EVA01 colors from Evangelion anime.
+      </p>
+    </td>
+    <td>
+      <img src="./images/logo.png" width="300px"/>
+    </td>
+  </tr>
+</table>
+
 Based on EVA01 colors from Evangelion anime.
 
 ## 🛠 Installed Programs
