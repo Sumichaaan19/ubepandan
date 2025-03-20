@@ -2,6 +2,8 @@
 
 Based on EVA01 colors from the Evangelion anime.
 
+  <img src="./images/logo.png" width="300px" style="margin-left: 20px;"/>
+
 ## 🛠 Installed Programs
 
 <div style="display: flex; align-items: center;">
@@ -47,7 +49,7 @@ Based on EVA01 colors from the Evangelion anime.
       <td><a href="https://github.com/karlstav/cava">Cava</a></td>
     </tr>
   </table>
-  <img src="./images/logo.png" width="300px" style="margin-left: 20px;"/>
+
 </div>
 
 ## 🎛 Keybindings
