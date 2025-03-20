@@ -111,7 +111,7 @@ tooltip {
 #custom-swaync
 #custom-cpuinfo,
 #cpu,
-#cava,
+#custom-cava,
 #custom-visualizer,
 #temperature,
 #custom-gpuinfo,
@@ -193,9 +193,14 @@ tooltip {
 }
 
 
-#cava {
-    padding: 0 5px;
+#custom-cava {
+    color: @main-bg;
+    background: none;
+    /*Size*/
+    font-size: 15px;  
+    padding: 8px 10px;     
 }
+
 
 
 #custom-visualizer {

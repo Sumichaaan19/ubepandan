@@ -18,7 +18,7 @@
 // positions generated based on config.ctl //
 
 	"modules-left": ["custom/padd","custom/padd",
-    "hyprland/workspaces","custom/padd","custom/padd","cpu","memory","temperature","custom/padd"],
+    "hyprland/workspaces","custom/padd","custom/padd","cpu","memory","temperature","custom/padd","custom/cava",],
 	"modules-center": ["custom/padd","clock","custom/updates","custom/padd"],
 	"modules-right": ["custom/padd","idle_inhibitor","power-profiles-daemon","network","bluetooth","pulseaudio","battery","custom/swaync","custom/padd"],
 
@@ -40,35 +40,15 @@
     "tooltip": true
 },
 
-//this is not working for me either
+//just disable cava if you have sound problem
 
-"cava": {
-    //        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
-    "framerate": 60,
-    "autosens": 1,
-    "sensitivity": 2,
-    "bars": 20,
-    "lower_cutoff_freq": 50,
-    "higher_cutoff_freq": 10000,
-    "method": "pulse",
-    "source": "auto",
-    "stereo": true,
-    "reverse": false,
-    "bar_delimiter": 0,
-    "monstercat": false,
-    "waves": false,
-    "noise_reduction": 0.77,
-    "input_delay": 2,
-    "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-    "actions": {
-        "on-click-right": "mode",
-    "gravity": 200
-
-    }
+"custom/cava": {
+     "format": "{}",
+     "exec": "~/.config/waybar/scripts/cava.sh"
 },
 
 "custom/cpuinfo": {
-    "exec": " /home/ralphie/.config/waybar/scripts/cpuinfo.sh",
+    "exec": " ~/.config/waybar/scripts/cpuinfo.sh",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -132,18 +112,18 @@
 
 
 "custom/gpuinfo": {
-    "exec": " /home/ralphie/.config/waybar/scripts/gpuinfo.sh",
+    "exec": " ~/.config/waybar/scripts/gpuinfo.sh",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
     "interval": 5, // once every 5 seconds
     "tooltip": true,
     "max-length": 1000,
-    "on-click": "/home/ralphie/.config/waybar/scripts/gpuinfo.sh --toggle",
+    "on-click": "~/.config/waybar/scripts/gpuinfo.sh --toggle",
 },
 
 "custom/gpuinfo#nvidia": {
-    "exec": " /home/ralphie/.config/waybar/scripts/gpuinfo.sh --use nvidia ",
+    "exec": " ~/.config/waybar/scripts/gpuinfo.sh --use nvidia ",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -153,7 +133,7 @@
 },
 
 "custom/gpuinfo#amd": {
-    "exec": " /home/ralphie/.config/waybar/scripts/gpuinfo.sh --use amd ",
+    "exec": " ~/.config/waybar/scripts/gpuinfo.sh --use amd ",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -163,7 +143,7 @@
 },
 
 "custom/gpuinfo#intel": {
-    "exec": " /home/ralphie/.config/waybar/scripts/gpuinfo.sh --use intel ",
+    "exec": " ~/.config/waybar/scripts/gpuinfo.sh --use intel ",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -190,11 +170,11 @@
 },
 
 "custom/updates": {
-    "exec": "/home/ralphie/.config/waybar/scripts/systemupdate.sh",
+    "exec": "~/.config/waybar/scripts/systemupdate.sh",
     "return-type": "json",
     "format": "󰆦 {}",
     "rotate": 0,
-    "on-click": "/home/ralphie/.config/waybar/scripts/systemupdate.sh up",
+    "on-click": "~/.config/waybar/scripts/systemupdate.sh up",
     "interval": 86400, // once every day
     "tooltip": true,
 },
@@ -262,7 +242,7 @@
 /*
 "custom/visualizer": {
     "module": "custom/visualizer",
-    "exec": "sh -c '/home/ralphie/.config/waybar/audio-visualizer.sh'",
+    "exec": "sh -c '~/.config/waybar/audio-visualizer.sh'",
     "interval": 1,
     "format": "{}",
     "tooltip": false
@@ -342,7 +322,7 @@
     "rotate": 0,
     "exec": "echo ; echo  logout",
     "on-click": "wlogout",
-    "on-click-right": "/home/ralphie/.config/waybar/scripts/logoutlaunch.sh 1",
+    "on-click-right": "~/.config/waybar/scripts/logoutlaunch.sh 1",
     "interval" : 86400, // once every day
     "tooltip": true
 },
